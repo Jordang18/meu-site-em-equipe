@@ -1,0 +1,26 @@
+
+.imagem-com-botao {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-com-botao img {
+    display: block;
+}
+
+.imagem-com-botao .botao {
+    position: absolute;
+    top: 50%; /* Ajuste a posição vertical do botão */
+    left: 50%; /* Ajuste a posição horizontal do botão */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo semi-transparente */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagem-com-botao .botao:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo do botão ao passar o mouse */
+}
